@@ -6,9 +6,11 @@
 smlearn
 -------
 
-**smlearn** is a python implementation of machine learning algorithms.
+**smlearn** is a python implementation of some fundamental machine learning algorithms.
 
-*Currently in the developing phase and therefore highly unstable.*
+The purpose of smlearn is not to produce optimized and efficient algorithms but rather to present how the algorithms work transparently.
+
+*Currently in the developing phase. It is highly unstable and may change radically without notice.*
 
 dependencies
 ------------
