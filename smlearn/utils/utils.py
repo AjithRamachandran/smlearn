@@ -14,6 +14,15 @@ def mean_squared_error(y, y_pred) -> float:
     return np.mean(0.5 * np.square(y - y_pred))
 
 
+def accuracy(y, y_pred) -> float:
+    count = 0
+    for i in range(len(y)):
+        if y[i] == y_pred[i]:
+            count += 1
+
+    return (count / len(y)) * 100
+
+
 def polynomial_features(X, degree) -> np.ndarray:
     n_samples, n_features = X.shape
 
@@ -25,3 +34,7 @@ def polynomial_features(X, degree) -> np.ndarray:
         poly_x[:, i] = np.prod(X[:, index], axis=1)
 
     return poly_x
+
+
+def sigmoid(X):
+    return 1. / (1. + np.exp(-X))

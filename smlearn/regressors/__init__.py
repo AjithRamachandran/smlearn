@@ -3,3 +3,4 @@ from smlearn.regressors.regression import (LinearRegression,
                                            LassoRegression,
                                            PolynomialRegression,
                                            ElasticNet)
+from smlearn.regressors.logistic import LogisticRegression
