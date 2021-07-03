@@ -20,3 +20,4 @@ scikit-learn requires:
 - Python (>= |PythonMinVersion|)
 - NumPy (>= |NumPyMinVersion|)
 
+check develop branch for current status.
